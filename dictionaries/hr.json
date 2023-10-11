@@ -1,0 +1,12 @@
+{
+    "navigation": {
+        "home": "Početna",
+        "about": "O nama"
+    },
+    
+    "page": {
+        "home": {
+            "hello": "Zdravo"
+        }
+    }
+}
