@@ -6,7 +6,13 @@
     
     "page": {
         "home": {
-            "hello": "Hay"
+            "title": "Carpets Revived: Our ",
+            "highLight1":"Passion",
+            "title2": ", Your ",
+            "highLight2":"Purity",
+            "dot": ".",
+            "subtitle":"Join 1000+ Satisfied Clients in Our World of Cleanliness.",
+            "button": "Contact Us"
         }
     }
 }

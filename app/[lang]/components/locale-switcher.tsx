@@ -22,10 +22,10 @@ export const LocaleSwitcher = () => {
           <li key={locale}>
             <Link
               href={redirectedPathName(locale)}
-              className={`rounded-md border px-3 py-2 text-white transition duration-300 ease-in-out ${
+              className={`rounded-lg border border-white p-2 leading-4 text-white transition duration-300 flex justify-center items-center ease-in-out w-8 h-8 ${
                 pathName === redirectedPathName(locale)
-                  ? 'bg-blue-800'
-                  : 'bg-blue-500 hover:bg-blue-700'
+                  ? 'bg-blue-500 pointer-events-none'
+                  : 'bg-gray-600 hover:bg-gray-700'
               }`}
             >
               {locale}
