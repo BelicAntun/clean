@@ -23,24 +23,6 @@ export default function MobileHeader({ navigation, lang }: Props) {
       {menuOpen && (
         <div className="fixed top-0 left-0 h-screen w-full xs:w-2/3 bg-blue-500  transform translate-x-0 transition-transform ease-in-out duration-300 py-5">
           <div className="flex flex-col items-center justify-between h-full p-4">
-            <ul className="flex flex-col gap-4">
-              <li>
-                <Link
-                  href={`/${lang}`}
-                  className=" hover:underline underline-offset-2 text-white hover:text-blue-200 text-xl"
-                >
-                  {navigation.home}
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href={`/${lang}/about`}
-                  className=" hover:underline underline-offset-2 text-white hover:text-blue-200 text-xl"
-                >
-                  {navigation.about}
-                </Link>
-              </li>
-            </ul>
             <LocaleSwitcher />
           </div>
 

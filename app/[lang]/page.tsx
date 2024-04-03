@@ -1,5 +1,4 @@
 import { Locale } from '@/i18n.config';
-import { getDictionary } from '@/lib/dictionary';
 
 export default async function Home({
   params: { lang },
@@ -12,7 +11,7 @@ export default async function Home({
   };
 
   return (
-    <div className="text-center text-2xl text-gray-500 mt-24">
+    <div className="text-center text-2xl text-gray-500 mt-24 flex-1">
       {underConstruction[lang]}
     </div>
   );
