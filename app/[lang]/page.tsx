@@ -11,7 +11,7 @@ export default async function Home({
   };
 
   return (
-    <div className="text-center text-2xl text-gray-500 mt-24 flex-1">
+    <div className="flex justify-center items-center text-2xl text-gray-500 flex-1">
       {underConstruction[lang]}
     </div>
   );

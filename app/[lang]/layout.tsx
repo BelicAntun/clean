@@ -11,14 +11,12 @@ const inter = Roboto({
 });
 
 export const metadata: Metadata = {
-  title: 'Fresh Pranje Tepiha - Professional Carpet Cleaning Services',
-  description:
-    'Welcome to Pranje Tepiha Fresh - Your trusted partner for professional carpet cleaning services. We specialize in revitalizing your carpets, leaving them fresh and clean. Contact us today for top-quality carpet cleaning solutions.',
-  keywords:
-    'carpet cleaning, professional carpet cleaning, carpet cleaning services, Pranje Tepiha Fresh, pranje tepiha, profesionalno pranje tepiha, usluge čišćenja tepiha, čišćenje tepiha, strojno pranje tepiha',
+  title: 'Antun Belić',
+  description: 'Under construction',
+  keywords: 'frontend next react typescript tailwindcss',
   authors: [
     {
-      name: 'Pranje Tepiha Fresh',
+      name: 'Antun Belić',
     },
   ],
 };
@@ -38,9 +36,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang={params.lang}>
-      <body className={inter.className}>
+      <body className={`${inter.className} h-screen flex flex-col`}>
         <Header lang={params.lang} />
-        <main>{children}</main>
+        <main className="flex flex-col flex-1">{children}</main>
         <Footer />
       </body>
     </html>
